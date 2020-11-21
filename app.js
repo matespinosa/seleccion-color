@@ -6,7 +6,6 @@ const color = document.querySelector('.color');
 btn.addEventListener('click', function () {
   // obtener numero aleatorio entre 0 - 3 colors[3]
   const randomNumber = getRandomNumber();
-  console.log(randomNumber);
 
   document.body.style.backgroundColor = colors[randomNumber];
   color.textContent = colors[randomNumber]
